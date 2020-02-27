@@ -1,5 +1,6 @@
 body {
     font-family: 'Titillium Web';
+    color: #000000;
 }
 
 header {
@@ -16,12 +17,24 @@ header {
 
 h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
+    padding: 0;
+    margin: 0;
 }
 
-.main-img {
+.intro-content__title {
+    font-size: 50px;
+    letter-spacing: .7rem;
+}
+
+.intro-img {
     margin-top: 10px;
 }
 
 p{
     font-weight: 100;
+    font-size: 15px;
+}
+
+.books {
+    margin-top: 20px;
 }

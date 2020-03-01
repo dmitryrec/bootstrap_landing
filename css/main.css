@@ -1,3 +1,11 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:after, *:before {
+    box-sizing: inherit;
+}
+
 body {
     font-family: 'Titillium Web';
     color: #000000;
@@ -34,11 +42,15 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
 }
 
-p{
-    font-weight: 100;
-    font-size: 15px;
+.intro__text, .books__description {
+    text-align: justify;
 }
 
 .books {
     margin-top: 20px;
+}
+
+.books__description {
+    font-weight: 100;
+    font-size: 15px;
 }

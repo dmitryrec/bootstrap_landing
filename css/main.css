@@ -11,7 +11,8 @@ body {
     color: #000000;
 }
 
-header {
+h3 {
+    text-align: center;
 }
 
 .nav {
@@ -56,7 +57,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .books__item {
-    padding: 20px 0;
+    padding: 20px;
+    box-shadow: 0 0 1px black;
+    border-radius: 5px;
 }
 
 .books__img {
